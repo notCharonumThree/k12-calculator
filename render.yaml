@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: k12-calculator
+    env: docker
+    plan: free
