@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/notCharonumThree/mathematics.git
+RUN git clone https://github.com/notCharonumThree/streamlined.git
 
-WORKDIR /mathematics
+WORKDIR /streamlined
 
 RUN npm install
 
